@@ -9,22 +9,154 @@ body {
 }
 
 .wrapper {
-  background-color: rgb(131, 156, 88);
+  background-image: url(https://i.postimg.cc/TwQ5BSfN/desktop-wallpaper-wild-daisies-by-jeremy-cangialosi-on-500px-flower-aesthetic-laptop.jpg);
   border: 10px;
   margin-top: 200px;
-  height: 300px;
-  width: 350px;
+  /* margin: 50%; */
+  margin-left: 150px;
+  height: 450px;
+  width: 450px;
   border-radius: 5px;
-  margin-left: 180px;
   box-shadow: 15px 15px 15px black;
 }
+@media screen and (max-width: 680px) {
+  .wrapper {
+    top: 100px;
+    margin: auto;
+    width: 80%;
+  }
+}
+@media screen and (max-width: 480px) {
+  .wrapper {
+    width: 60%;
+    height: 100%;
+  }
+}
+
 .redx {
   height: 18px;
   width: 18px;
-}
-.title {
-  margin-left: 80px;
-  font-size: 30px;
-  
+  }
+  @media screen and (max-width: 680px) {
+  .redx {width: 15px; }
+  }
 
+
+.title {
+  margin-left:135px;
+  font-size: 35px;
+  color:darkolivegreen;
+  text-decoration: underline;
+  padding: 10px;
+  font-family: 'Times New Roman', Times, serif;
+}
+@media screen  and (max-width:680px) {
+  .title{
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+}
+}
+
+#input {
+  align-items: center;
+  /* margin-left:90px; */
+  background-color: antiquewhite;
+  height:50px;
+  width: 200px;
+}
+#input:hover {
+  background-color: darksalmon;
+}
+@media screen and (max-width: 680px) {
+  #input{
+      width: 200px;
+      margin-left: 50px;
+  }
+}
+@media screen and (max-width: 480px) {
+  #input{
+      width: 150px;
+      margin-left: 5px;
+  }
+}
+
+
+#addInput{
+ margin-left: 50px;
+}
+@media screen and (max-width: 680px) {
+  #addInput button {
+    font-size: 10px;
+    height: 10px;
+    width: 50%;
+  }
+}
+
+#addbtn {
+  height: 30px;
+  width: 45px;
+}
+@media screen and (max-width: 480px) {
+  #addbtn {
+    width: 80px;
+    height: 25px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    margin-left: 50px;
+  }
+}
+
+
+#sortbtn {
+  height: 30px;
+  width: 45px;
+  margin-left: 30px;
+}
+@media screen and (max-width: 480px) {
+  #sortbtn {
+    width: 80px;
+    height: 25px;
+    margin-bottom: 10px;
+    margin-left: 50px;
+  }
+}
+
+
+#errands{ 
+  height: 250pxpx;
+  background-color: rgb(237, 237, 194);
+  border: 10px ;
+  border-radius: 25px;
+  margin-top: 30px;
+}
+
+
+#addInput{
+    position: relative;
+    padding: 30px 20px;
+}
+@media screen and (max-width: 680px) {
+    #addInput{
+        padding: 15px 10px;
+    }
+}
+
+
+
+
+
+.task{
+
+}
+@media screen and (max-width: 680px) {
+    .task{
+        font-size: 15px;
+        height: 30px;
+    }
+}
+@media screen and (max-width: 680px) {
+    .task button{
+width:20px;
+    }
 }
